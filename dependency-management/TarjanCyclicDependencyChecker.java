@@ -40,13 +40,14 @@ class TarjanCyclicDependencyChecker {
 
         if (low.get(u).equals(dfn.get(u))) {
             List<String> scc = new ArrayList<>();
-            String curr;
-
-            do {
-                curr = stack.pop();
+            while (true) {
+                String curr = stack.pop();
                 inStack.remove(curr);
                 scc.add(curr);
-            } while (!curr.equals(u));
+                if (curr.equals(u)) {
+                    break;
+                }
+            }
 
             if (scc.size() > 1 || (scc.size() == 1 && neighbors.contains(u))) {
                 allCycles.add(scc);
@@ -67,4 +68,3 @@ class CyclicDependencyException extends RuntimeException {
         return cycles;
     }
 }
-
