@@ -5,6 +5,10 @@ plugins {
 group = 'com.github.weitianyi1993.coding'
 version = '1.0.0'
 
+repositories {
+    mavenCentral()
+}
+
 java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
@@ -12,4 +16,13 @@ java {
 
 application {
     mainClass = 'com.github.weitianyi1993.coding.Main'
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.13.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
 }
