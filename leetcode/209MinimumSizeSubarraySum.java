@@ -1,4 +1,4 @@
-class 209MinimumSizeSubarraySum {
+class MinimumSizeSubarraySum {
     public int minSubArrayLen(int target, int[] nums) {
         int n = nums.length;
         int left = 0;

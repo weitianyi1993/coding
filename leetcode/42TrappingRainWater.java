@@ -1,4 +1,4 @@
-class 42TrappingRainWater {
+class TrappingRainWater {
     // public int trap(int[] height) {
     //     int n = height.length;
     //     int[] premax = new int[n];

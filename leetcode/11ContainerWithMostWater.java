@@ -1,4 +1,4 @@
-class 11ContainerWithMostWater {
+class ContainerWithMostWater {
     public int maxArea(int[] height) {
         int result = 0;
         int left = 0;

@@ -13,7 +13,9 @@
  *     }
  * }
  */
-class 226InvertBinaryTree {
+import java.util.*;
+
+class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         dfs(root);
         return root;

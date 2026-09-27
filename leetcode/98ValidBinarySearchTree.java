@@ -3,7 +3,7 @@
  * Inorder
  * PostOrder
  */
-class 98ValidBinarySearchTree {
+class ValidBinarySearchTree {
 
     long prev = Long.MIN_VALUE;
 

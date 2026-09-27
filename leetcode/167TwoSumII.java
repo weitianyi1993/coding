@@ -1,4 +1,4 @@
-class 167TwoSumII {
+class TwoSumII {
     public int[] twoSum(int[] numbers, int target) {
         int i = 0;
         int j = numbers.length - 1;

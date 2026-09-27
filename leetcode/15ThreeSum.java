@@ -1,4 +1,6 @@
-class 15ThreeSum {
+import java.util.*;
+
+class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);

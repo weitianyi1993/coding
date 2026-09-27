@@ -1,4 +1,6 @@
-class 494TargetSum {
+import java.util.*;
+
+class TargetSum {
     public int findTargetSumWays(int[] nums, int target) {
         target = Math.abs(target);
         int sum = 0;

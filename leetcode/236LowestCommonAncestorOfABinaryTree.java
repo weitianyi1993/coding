@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class 236LowestCommonAncestorOfABinaryTree {
+class LowestCommonAncestorOfABinaryTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         return dfs(root, p, q);
     }

@@ -1,4 +1,4 @@
-class 104MaximumDepthOfBinaryTree {
+class MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
         return dfs(root);
     }

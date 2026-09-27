@@ -1,57 +1,58 @@
 import java.util.*;
 
-// Dependency checker
-// 把它想成一个类似审讯犯人的算法。对任何一个depednendcy，先关押到房间里（stack）
-// 然后“审讯”它的dependency。如果dependency有了环形依赖会被留在栈里，如果没有则不会留在栈里。
+// Detects cycles in a directed dependency graph using Tarjan's algorithm.
 class TarjanCyclicDependencyChecker {
-    private Map<String, List<String>> graph;
+    private final Map<String, List<String>> graph;
     private int timestamp;
-    private Map<String, Integer> dfn = new HashMap<>();
-    private Map<String, Integer> low = new HashMap<>();
-
-    private Deque<String> stack = new ArrayDeque<>();
-    private Set<String> inStack = new HashSet<>();
-
-    private List<List<String>> allCycles = new ArrayList<>();
+    private final Map<String, Integer> discoveryTime = new HashMap<>();
+    private final Map<String, Integer> lowLink = new HashMap<>();
+    private final Deque<String> stack = new ArrayDeque<>();
+    private final Set<String> inStack = new HashSet<>();
+    private final List<List<String>> cycles = new ArrayList<>();
 
     public TarjanCyclicDependencyChecker(Map<String, List<String>> graph) {
         this.graph = graph;
     }
 
     public void check(String dependency) {
+        timestamp = 0;
+        discoveryTime.clear();
+        lowLink.clear();
+        stack.clear();
+        inStack.clear();
+        cycles.clear();
         dfs(dependency);
     }
 
-    private void dfs(String u) {
-        dfn.put(u, timestamp);
-        low.put(u, timestamp);
+    private void dfs(String dependency) {
+        discoveryTime.put(dependency, timestamp);
+        lowLink.put(dependency, timestamp++);
+        stack.push(dependency);
+        inStack.add(dependency);
 
-        timestamp++;
-        stack.push(u);
-        inStack.add(u);
-
-        List<String> neighbors = graph.getOrDefault(u, Collections.emptyList());
-        for (String v : neighbors) {
-            if (!dfn.containsKey(v)) {
-                dfs(v);
+        List<String> neighbors = graph.getOrDefault(dependency, Collections.emptyList());
+        for (String neighbor : neighbors) {
+            if (!discoveryTime.containsKey(neighbor)) {
+                dfs(neighbor);
+                lowLink.put(dependency, Math.min(lowLink.get(dependency), lowLink.get(neighbor)));
+            } else if (inStack.contains(neighbor)) {
+                lowLink.put(dependency, Math.min(lowLink.get(dependency), discoveryTime.get(neighbor)));
             }
-            low.put(u, Math.min(low.get(u), dfn.get(v)));
         }
 
-        if (low.get(u).equals(dfn.get(u))) {
-            List<String> scc = new ArrayList<>();
-            while (true) {
-                String curr = stack.pop();
-                inStack.remove(curr);
-                scc.add(curr);
-                if (curr.equals(u)) {
-                    break;
-                }
-            }
+        if (lowLink.get(dependency).equals(discoveryTime.get(dependency))) {
+            List<String> component = new ArrayList<>();
+            String current;
+            do {
+                current = stack.pop();
+                inStack.remove(current);
+                component.add(current);
+            } while (!current.equals(dependency));
 
-            if (scc.size() > 1 || (scc.size() == 1 && neighbors.contains(u))) {
-                allCycles.add(scc);
-                throw new CyclicDependencyException(allCycles);
+            boolean selfLoop = component.size() == 1 && neighbors.contains(dependency);
+            if (component.size() > 1 || selfLoop) {
+                cycles.add(component);
+                throw new CyclicDependencyException(cycles);
             }
         }
     }
@@ -59,12 +60,16 @@ class TarjanCyclicDependencyChecker {
 
 class CyclicDependencyException extends RuntimeException {
     private final List<List<String>> cycles;
-    public CyclicDependencyException(List<List<String>> cycles ) {
+
+    public CyclicDependencyException(List<List<String>> cycles) {
         super("Detected cyclic dependencies in modules: " + cycles);
-        this.cycles = cycles;
+        this.cycles = new ArrayList<>();
+        for (List<String> cycle : cycles) {
+            this.cycles.add(new ArrayList<>(cycle));
+        }
     }
 
     public List<List<String>> getCycles() {
-        return cycles;
+        return Collections.unmodifiableList(cycles);
     }
 }

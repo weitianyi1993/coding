@@ -1,4 +1,6 @@
-class 2389LongestSubsequence {
+import java.util.*;
+
+class LongestSubsequenceWithLimitedSum {
     public int[] answerQueries(int[] nums, int[] queries) {
         int[] result = new int[queries.length];
         int[] prefixSum = new int[nums.length];

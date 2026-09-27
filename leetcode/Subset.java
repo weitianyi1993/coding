@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+class Subset {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> path = new ArrayList<>();

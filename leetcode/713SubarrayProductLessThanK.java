@@ -1,4 +1,4 @@
-class 713SubarrayProductLessThanK {
+class SubarrayProductLessThanK {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         int n = nums.length;
         int res = 0;
