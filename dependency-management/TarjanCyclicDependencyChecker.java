@@ -42,12 +42,14 @@ class TarjanCyclicDependencyChecker {
 
         if (lowLink.get(dependency).equals(discoveryTime.get(dependency))) {
             List<String> component = new ArrayList<>();
-            String current;
-            do {
-                current = stack.pop();
+            while (true) {
+                String current = stack.pop();
                 inStack.remove(current);
                 component.add(current);
-            } while (!current.equals(dependency));
+                if (current.equals(dependency)) {
+                    break;
+                }
+            }
 
             boolean selfLoop = component.size() == 1 && neighbors.contains(dependency);
             if (component.size() > 1 || selfLoop) {
