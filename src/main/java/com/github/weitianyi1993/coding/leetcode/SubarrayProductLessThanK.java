@@ -1,4 +1,6 @@
-class SubarrayProductLessThanK {
+package com.github.weitianyi1993.coding.leetcode;
+
+public class SubarrayProductLessThanK {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         int n = nums.length;
         int res = 0;

@@ -1,4 +1,6 @@
-class TrappingRainWater {
+package com.github.weitianyi1993.coding.leetcode;
+
+public class TrappingRainWater {
     // public int trap(int[] height) {
     //     int n = height.length;
     //     int[] premax = new int[n];

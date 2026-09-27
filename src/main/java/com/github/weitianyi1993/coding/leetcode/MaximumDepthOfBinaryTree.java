@@ -1,4 +1,6 @@
-class MaximumDepthOfBinaryTree {
+package com.github.weitianyi1993.coding.leetcode;
+
+public class MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
         return dfs(root);
     }

@@ -1,6 +1,8 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 import java.util.*;
 
-class LongestSubstringWithoutRepeatingCharacters {
+public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {

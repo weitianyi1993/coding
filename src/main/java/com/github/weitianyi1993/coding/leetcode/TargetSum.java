@@ -1,6 +1,8 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 import java.util.*;
 
-class TargetSum {
+public class TargetSum {
     public int findTargetSumWays(int[] nums, int target) {
         target = Math.abs(target);
         int sum = 0;

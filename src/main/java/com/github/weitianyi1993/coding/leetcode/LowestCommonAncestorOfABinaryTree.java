@@ -1,3 +1,5 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +9,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class LowestCommonAncestorOfABinaryTree {
+public class LowestCommonAncestorOfABinaryTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         return dfs(root, p, q);
     }

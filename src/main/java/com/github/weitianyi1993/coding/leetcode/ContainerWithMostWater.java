@@ -1,4 +1,6 @@
-class ContainerWithMostWater {
+package com.github.weitianyi1993.coding.leetcode;
+
+public class ContainerWithMostWater {
     public int maxArea(int[] height) {
         int result = 0;
         int left = 0;

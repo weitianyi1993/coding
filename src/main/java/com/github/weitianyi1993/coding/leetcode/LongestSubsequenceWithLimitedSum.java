@@ -1,6 +1,8 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 import java.util.*;
 
-class LongestSubsequenceWithLimitedSum {
+public class LongestSubsequenceWithLimitedSum {
     public int[] answerQueries(int[] nums, int[] queries) {
         int[] result = new int[queries.length];
         int[] prefixSum = new int[nums.length];

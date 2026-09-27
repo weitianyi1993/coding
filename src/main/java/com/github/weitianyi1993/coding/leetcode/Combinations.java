@@ -1,6 +1,8 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 import java.util.*;
 
-class Combinations {
+public class Combinations {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> path = new ArrayList<>();

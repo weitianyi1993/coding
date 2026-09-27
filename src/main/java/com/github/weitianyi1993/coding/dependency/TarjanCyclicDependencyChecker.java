@@ -1,7 +1,9 @@
+package com.github.weitianyi1993.coding.dependency;
+
 import java.util.*;
 
 // Detects cycles in a directed dependency graph using Tarjan's algorithm.
-class TarjanCyclicDependencyChecker {
+public class TarjanCyclicDependencyChecker {
     private final Map<String, List<String>> graph;
     private int timestamp;
     private final Map<String, Integer> discoveryTime = new HashMap<>();
@@ -60,18 +62,3 @@ class TarjanCyclicDependencyChecker {
     }
 }
 
-class CyclicDependencyException extends RuntimeException {
-    private final List<List<String>> cycles;
-
-    public CyclicDependencyException(List<List<String>> cycles) {
-        super("Detected cyclic dependencies in modules: " + cycles);
-        this.cycles = new ArrayList<>();
-        for (List<String> cycle : cycles) {
-            this.cycles.add(new ArrayList<>(cycle));
-        }
-    }
-
-    public List<List<String>> getCycles() {
-        return Collections.unmodifiableList(cycles);
-    }
-}

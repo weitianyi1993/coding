@@ -1,9 +1,11 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 /**
  * Preorder
  * Inorder
  * PostOrder
  */
-class ValidBinarySearchTree {
+public class ValidBinarySearchTree {
 
     long prev = Long.MIN_VALUE;
 

@@ -1,12 +1,16 @@
-# Coding exercises
+# Coding Exercises
 
-This repository keeps the existing `leetcode/` and `dependency-management/` folders. The Gradle build compiles those classes together with the runnable entry point in `src/main/java/`.
+Java coding exercises and a dependency-cycle checker, built with Gradle.
 
-Requirements: JDK 17 or newer and Gradle.
+## Requirements
+
+JDK 17 or newer. The Gradle Wrapper downloads and runs the pinned Gradle version, so a separate Gradle installation is not needed.
+
+## Build and run
 
 ```sh
-gradle run
-gradle build
+./gradlew build
+./gradlew run
 ```
 
-`Main` runs a few example algorithms and checks a sample dependency graph. Individual exercise classes remain package-private and can be called from `Main` or another class in the default package.
+Application code is under `src/main/java/com/github/weitianyi1993/coding`. LeetCode solutions live in the `leetcode` package, and dependency graph utilities live in the `dependency` package.

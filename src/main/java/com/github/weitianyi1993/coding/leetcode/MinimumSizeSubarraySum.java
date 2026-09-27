@@ -1,4 +1,6 @@
-class MinimumSizeSubarraySum {
+package com.github.weitianyi1993.coding.leetcode;
+
+public class MinimumSizeSubarraySum {
     public int minSubArrayLen(int target, int[] nums) {
         int n = nums.length;
         int left = 0;

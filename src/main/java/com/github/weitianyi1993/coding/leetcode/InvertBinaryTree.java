@@ -1,3 +1,5 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -15,7 +17,7 @@
  */
 import java.util.*;
 
-class InvertBinaryTree {
+public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         dfs(root);
         return root;

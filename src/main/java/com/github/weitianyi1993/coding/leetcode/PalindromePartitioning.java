@@ -1,6 +1,8 @@
+package com.github.weitianyi1993.coding.leetcode;
+
 import java.util.*;
 
-class PalindromePartitioning {
+public class PalindromePartitioning {
     public List<List<String>> partition(String s) {
         List<List<String>> res = new ArrayList<>();
         List<String> path = new ArrayList<>();
