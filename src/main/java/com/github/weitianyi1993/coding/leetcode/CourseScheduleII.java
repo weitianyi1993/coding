@@ -1,13 +1,13 @@
 package com.github.weitianyi1993.coding.leetcode;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class CourseSchedule {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+public class CourseScheduleII {
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
         int n = numCourses;
         List<Integer>[] graph = new ArrayList[n];
         int[] inDegree = new int[n];
@@ -20,6 +20,7 @@ public class CourseSchedule {
             inDegree[to]++;
         }
 
+        List<Integer> order = new ArrayList<>();
         Queue<Integer> queue = new ArrayDeque<>();
         for (int course = 0; course < inDegree.length; course++) {
             if (inDegree[course] == 0) {
@@ -27,10 +28,9 @@ public class CourseSchedule {
             }
         }
 
-        int completedCourses = 0;
         while (!queue.isEmpty()) {
             int current = queue.poll();
-            completedCourses++;
+            order.add(current);
 
             for (int course : graph[current]) {
                 inDegree[course]--;
@@ -40,6 +40,14 @@ public class CourseSchedule {
             }
         }
 
-        return completedCourses == n;
+        if (order.size() != n) {
+            return new int[0];
+        }
+
+        int[] result = new int[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = order.get(i);
+        }
+        return result;
     }
 }
