@@ -24,7 +24,12 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 5 | CN | 1871. 跳跃游戏 VII | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/JumpGameVII.java) · [LeetCode](https://leetcode.cn/problems/jump-game-vii/) |
 | 5 | CN | 1793. 好子数组的最大分数 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MaximumScoreOfAGoodSubarray.java) · [LeetCode](https://leetcode.cn/problems/maximum-score-of-a-good-subarray/) |
 | 5 | CN | 26. 删除有序数组中的重复项 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/RemoveDuplicatesFromSortedArray.java) · [LeetCode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) |
+| 5 | CN | 2444. 固定界限子数组的数目 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CountSubarraysWithFixedBounds.java) · [LeetCode](https://leetcode.cn/problems/count-subarrays-with-fixed-bounds/) |
+| 5 | CN | 1574. 删除最短的子数组使剩余数组有序 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/ShortestSubarrayToBeRemovedToMakeArraySorted.java) · [LeetCode](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) |
+| 4 | CN | 3936. 将 0 移到末尾的最少交换次数 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumSwapsToMoveZerosToEnd.java) · [LeetCode](https://leetcode.cn/problems/minimum-swaps-to-move-zeros-to-end/) |
+| 3 | CN | 3694. 删除子字符串后不同的终点 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/DistinctPointsReachableAfterSubstringRemoval.java) · [LeetCode](https://leetcode.cn/problems/distinct-points-reachable-after-substring-removal/) |
 | 4 | CN | 3439. 重新安排会议得到最多空余时间 I | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/RescheduleMeetingsForMaximumFreeTimeI.java) · [LeetCode](https://leetcode.cn/problems/reschedule-meetings-for-maximum-free-time-i/) |
+| 3 | CN | 2904. 最短且字典序最小的美丽子字符串 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/ShortestAndLexicographicallySmallestBeautifulSubstring.java) · [LeetCode](https://leetcode.cn/problems/shortest-and-lexicographically-smallest-beautiful-string/) |
 | 2 | US | 388. Longest Absolute File Path | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/LongestAbsoluteFilePath.java) |
 | 2 | US | 269. Alien Dictionary | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/AlienDictionary.java) |
 | 2 | US | 207. Course Schedule | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/CourseSchedule.java) |
