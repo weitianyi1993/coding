@@ -26,7 +26,7 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 5 | CN | 26. 删除有序数组中的重复项 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/RemoveDuplicatesFromSortedArray.java) · [LeetCode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) |
 | 4 | CN | 374. 猜数字大小 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/GuessNumberHigherOrLower.java) · [LeetCode](https://leetcode.cn/problems/guess-number-higher-or-lower/) |
 | 5 | CN | 69. x 的平方根 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/SqrtX.java) · [LeetCode](https://leetcode.cn/problems/sqrtx/) |
-| 5 | CN | 274. H 指数 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/HIndex.java) · [LeetCode](https://leetcode.cn/problems/h-index/) |
+| 5 | CN | 275. H 指数 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/HIndexII.java) · [LeetCode](https://leetcode.cn/problems/h-index-ii/) |
 | 5 | CN | 668. 乘法表中第 k 小的数 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/KthSmallestNumberInMultiplicationTable.java) · [LeetCode](https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/) |
 | 5 | CN | 1539. 第 k 个缺失的正整数 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/KthMissingPositiveNumber.java) · [LeetCode](https://leetcode.cn/problems/kth-missing-positive-number/) |
 | 5 | CN | 4008. 击败所有怪物的最小初始强度 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumInitialStrengthToDefeatAllMonsters.java) · [LeetCode](https://leetcode.cn/problems/minimum-initial-strength-to-defeat-all-monsters/) |
@@ -56,6 +56,19 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 3 | CN | 2080. 区间内查询数字的频率 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/RangeFreqQuery.java) · [LeetCode](https://leetcode.cn/problems/range-frequency-queries/) |
 | 3 | CN | 1898. 可移除字符的最大数目 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MaximumNumberOfRemovableCharacters.java) · [LeetCode](https://leetcode.cn/problems/maximum-number-of-removable-characters/) |
 | 4 | CN | 3488. 距离最小相等元素查询 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/ClosestEqualElementQueries.java) · [LeetCode](https://leetcode.cn/problems/closest-equal-element-queries/) |
+| 3 | CN | 3296. 移山所需的最少秒数 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumNumberOfSecondsToMakeMountainHeightZero.java) · [LeetCode](https://leetcode.cn/problems/minimum-number-of-seconds-to-make-mountain-height-zero/) |
+| 4 | CN | 1802. 有界数组中指定下标处的最大值 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MaximumValueAtAGivenIndexInABoundedArray.java) · [LeetCode](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/) |
+| 5 | CN | 131. 分割回文串（两种解法，重点复习选或不选） | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/PalindromePartitioning.java) · [LeetCode](https://leetcode.cn/problems/palindrome-partitioning/) |
+| 4 | CN | 46. 全排列 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/Permutations.java) · [LeetCode](https://leetcode.cn/problems/permutations/) |
+| 3 | CN | 90. 子集 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/SubsetsII.java) · [LeetCode](https://leetcode.cn/problems/subsets-ii/) |
+| 3 | CN | 77. 组合 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/Combinations.java) · [LeetCode](https://leetcode.cn/problems/combinations/) |
+| 4 | CN | 216. 组合总和 III | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CombinationSumIII.java) · [LeetCode](https://leetcode.cn/problems/combination-sum-iii/) |
+| 4 | CN | 805. 数组的均值分割 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/SplitArrayWithSameAverage.java) · [LeetCode](https://leetcode.cn/problems/split-array-with-same-average/) |
+| 4 | CN | 3376. 破解锁的最少时间 I | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumTimeToBreakLocksI.java) · [LeetCode](https://leetcode.cn/problems/minimum-time-to-break-locks-i/) |
+| 3 | CN | 491. 非递减子序列 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/NonDecreasingSubsequences.java) · [LeetCode](https://leetcode.cn/problems/non-decreasing-subsequences/) |
+| 5 | CN | 3850. 统计结果等于 K 的序列数目（记忆化搜索） | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CountSequencesToK.java) · [LeetCode](https://leetcode.cn/problems/count-sequences-to-k/) |
+| 5 | CN | 1079. 活字印刷 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/LetterTilePossibilities.java) · [LeetCode](https://leetcode.cn/problems/letter-tile-possibilities/) |
+| 3 | CN | 3566. 等积子集的划分方案 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/PartitionArrayIntoTwoEqualProductSubsets.java) · [LeetCode](https://leetcode.cn/problems/partition-array-into-two-equal-product-subsets/) |
 | 4 | CN | 2982. 找出出现至少三次的最长特殊子字符串 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/FindLongestSpecialSubstringThatOccursThriceII.java) · [LeetCode](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/) |
 | 2 | CN | 2187. 完成旅途的最少时间 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumTimeToCompleteTrips.java) · [LeetCode](https://leetcode.cn/problems/minimum-time-to-complete-trips/) |
 | 2 | CN | 1011. 在 D 天内送达包裹的能力 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CapacityToShipPackagesWithinDDays.java) · [LeetCode](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) |

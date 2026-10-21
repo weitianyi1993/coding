@@ -1,6 +1,6 @@
 package com.github.weitianyi1993.coding.leetcode.cn;
 
-public class HIndex {
+public class HIndexII {
     // 这个有点像脑筋急转弯，如果一开始把citations数组当成二分的对象就错了，因为引用数辆跟最终要求的返回的论文数是两个
     // 搜索的对象。真实的搜索对象应该是0-n。
     public int hIndex(int[] citations) {
