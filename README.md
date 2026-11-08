@@ -103,6 +103,9 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 5 | CN | 300. 最长递增子序列 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/LongestIncreasingSubsequence.java) · [LeetCode](https://leetcode.cn/problems/longest-increasing-subsequence/) |
 | 1 | CN | 746. 使用最小花费爬楼梯 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinCostClimbingStairs.java) · [LeetCode](https://leetcode.cn/problems/min-cost-climbing-stairs/) |
 | 1 | CN | 122. 买卖股票的最佳时机 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/BestTimeToBuyAndSellStockII.java) · [LeetCode](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/) |
+| 5 | CN | 494. 目标和 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/TargetSum.java) · [LeetCode](https://leetcode.cn/problems/target-sum/) |
+| 2 | CN | 198. 打家劫舍 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/HouseRobber.java) · [LeetCode](https://leetcode.cn/problems/house-robber/) |
+| 3 | CN | 583. 两个字符串的删除操作 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/DeleteOperationForTwoStrings.java) · [LeetCode](https://leetcode.cn/problems/delete-operation-for-two-strings/) |
 | 4 | CN | 2982. 找出出现至少三次的最长特殊子字符串 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/FindLongestSpecialSubstringThatOccursThriceII.java) · [LeetCode](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/) |
 | 2 | CN | 2187. 完成旅途的最少时间 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumTimeToCompleteTrips.java) · [LeetCode](https://leetcode.cn/problems/minimum-time-to-complete-trips/) |
 | 2 | CN | 1011. 在 D 天内送达包裹的能力 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CapacityToShipPackagesWithinDDays.java) · [LeetCode](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) |
