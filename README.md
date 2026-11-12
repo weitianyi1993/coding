@@ -111,6 +111,7 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 5 | CN | 2826. 将三个组排序（容易跟 LIS 混淆） | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/SortingThreeGroups.java) · [LeetCode](https://leetcode.cn/problems/sorting-three-groups/) |
 | 4 | CN | 3877. 达到目标异或值的最少删除次数 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumRemovalsToAchieveTargetXor.java) · [LeetCode](https://leetcode.cn/problems/minimum-removals-to-achieve-target-xor/) |
 | 1 | CN | 3693. 爬楼梯 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/ClimbingStairsII.java) · [LeetCode](https://leetcode.cn/problems/climbing-stairs-ii/) |
+| 5 | CN | 3592. 硬币面值还原 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/InverseCoinChange.java) · [LeetCode](https://leetcode.cn/problems/inverse-coin-change/) |
 | 4 | CN | 2982. 找出出现至少三次的最长特殊子字符串 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/FindLongestSpecialSubstringThatOccursThriceII.java) · [LeetCode](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/) |
 | 2 | CN | 2187. 完成旅途的最少时间 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumTimeToCompleteTrips.java) · [LeetCode](https://leetcode.cn/problems/minimum-time-to-complete-trips/) |
 | 2 | CN | 1011. 在 D 天内送达包裹的能力 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CapacityToShipPackagesWithinDDays.java) · [LeetCode](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) |
