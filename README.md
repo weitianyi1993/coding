@@ -121,6 +121,7 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 5 | CN | 1856. 子数组最小乘积的最大值 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MaximumSubarrayMinProduct.java) · [LeetCode](https://leetcode.cn/problems/maximum-subarray-min-product/) |
 | 2 | CN | 239. 滑动窗口最大值 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/SlidingWindowMaximum.java) · [LeetCode](https://leetcode.cn/problems/sliding-window-maximum/) |
 | 2 | CN | 3829. 设计共享出行系统 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/RideSharingSystem.java) · [LeetCode](https://leetcode.cn/problems/design-ride-sharing-system/) |
+| 4 | CN | 2866. 美丽塔 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/BeautifulTowersII.java) · [LeetCode](https://leetcode.cn/problems/beautiful-towers-ii/) |
 | 4 | CN | 2982. 找出出现至少三次的最长特殊子字符串 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/FindLongestSpecialSubstringThatOccursThriceII.java) · [LeetCode](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/) |
 | 2 | CN | 2187. 完成旅途的最少时间 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumTimeToCompleteTrips.java) · [LeetCode](https://leetcode.cn/problems/minimum-time-to-complete-trips/) |
 | 2 | CN | 1011. 在 D 天内送达包裹的能力 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CapacityToShipPackagesWithinDDays.java) · [LeetCode](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) |
