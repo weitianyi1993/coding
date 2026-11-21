@@ -124,6 +124,7 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 4 | CN | 2866. 美丽塔 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/BeautifulTowersII.java) · [LeetCode](https://leetcode.cn/problems/beautiful-towers-ii/) |
 | 2 | CN | 4016. 两个不重叠子正方形的最大面积 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MaximumAreaOfTwoNonOverlappingSquareSubmatrices.java) · [LeetCode](https://leetcode.cn/problems/maximum-area-of-two-non-overlapping-square-submatrices/) |
 | 4 | CN | 3589. 计数质数间隔平衡子数组 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CountPrimeGapBalancedSubarrays.java) |
+| 1 | CN | 1504. 统计全 1 子矩形 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CountSubmatricesWithAllOnes.java) · [LeetCode](https://leetcode.cn/problems/count-submatrices-with-all-ones/) |
 | 4 | CN | 2982. 找出出现至少三次的最长特殊子字符串 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/FindLongestSpecialSubstringThatOccursThriceII.java) · [LeetCode](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/) |
 | 2 | CN | 2187. 完成旅途的最少时间 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumTimeToCompleteTrips.java) · [LeetCode](https://leetcode.cn/problems/minimum-time-to-complete-trips/) |
 | 2 | CN | 1011. 在 D 天内送达包裹的能力 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CapacityToShipPackagesWithinDDays.java) · [LeetCode](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) |
