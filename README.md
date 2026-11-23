@@ -126,6 +126,7 @@ Priority uses a 1–5 scale, where 5 is the highest. The two problems added toda
 | 4 | CN | 3589. 计数质数间隔平衡子数组 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CountPrimeGapBalancedSubarrays.java) |
 | 1 | CN | 1504. 统计全 1 子矩形 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CountSubmatricesWithAllOnes.java) · [LeetCode](https://leetcode.cn/problems/count-submatrices-with-all-ones/) |
 | 2 | CN | 649. Dota2 参议院 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/Dota2Senate.java) · [LeetCode](https://leetcode.cn/problems/dota2-senate/) |
+| 5 | CN | 1277. 统计全为 1 的正方形子矩阵 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CountSquareSubmatricesWithAllOnes.java) · [LeetCode](https://leetcode.cn/problems/count-square-submatrices-with-all-ones/) |
 | 4 | CN | 2982. 找出出现至少三次的最长特殊子字符串 II | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/FindLongestSpecialSubstringThatOccursThriceII.java) · [LeetCode](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/) |
 | 2 | CN | 2187. 完成旅途的最少时间 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/MinimumTimeToCompleteTrips.java) · [LeetCode](https://leetcode.cn/problems/minimum-time-to-complete-trips/) |
 | 2 | CN | 1011. 在 D 天内送达包裹的能力 | [Java](src/main/java/com/github/weitianyi1993/coding/leetcode/cn/CapacityToShipPackagesWithinDDays.java) · [LeetCode](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) |
